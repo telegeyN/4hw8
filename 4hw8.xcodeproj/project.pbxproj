@@ -9,21 +9,43 @@
 /* Begin PBXBuildFile section */
 		72C622982B9AFB6300D31163 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C622972B9AFB6300D31163 /* AppDelegate.swift */; };
 		72C6229A2B9AFB6300D31163 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C622992B9AFB6300D31163 /* SceneDelegate.swift */; };
-		72C6229C2B9AFB6300D31163 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C6229B2B9AFB6300D31163 /* ViewController.swift */; };
-		72C6229F2B9AFB6300D31163 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72C6229D2B9AFB6300D31163 /* Main.storyboard */; };
+		72C6229C2B9AFB6300D31163 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C6229B2B9AFB6300D31163 /* WelcomeViewController.swift */; };
 		72C622A12B9AFB6A00D31163 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72C622A02B9AFB6A00D31163 /* Assets.xcassets */; };
 		72C622A42B9AFB6A00D31163 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72C622A22B9AFB6A00D31163 /* LaunchScreen.storyboard */; };
+		72C622B02B9AFCB600D31163 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C622AF2B9AFCB600D31163 /* Color.swift */; };
+		72C622B22B9AFCD700D31163 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C622B12B9AFCD700D31163 /* Fonts.swift */; };
+		72C622B62B9AFD3700D31163 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 72C622B42B9AFD3700D31163 /* Poppins-SemiBold.ttf */; };
+		72C622B72B9AFD3700D31163 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 72C622B52B9AFD3700D31163 /* Poppins-Regular.ttf */; };
+		72C622B92B9AFD4000D31163 /* Poppins-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 72C622B82B9AFD4000D31163 /* Poppins-ExtraLight.ttf */; };
+		72C622BC2B9AFE2800D31163 /* MakerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C622BB2B9AFE2700D31163 /* MakerView.swift */; };
+		72C622BE2B9B03C800D31163 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C622BD2B9B03C800D31163 /* LogInViewController.swift */; };
+		72C622C02B9B03DF00D31163 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C622BF2B9B03DF00D31163 /* SignUpViewController.swift */; };
+		72C622C22B9B12ED00D31163 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C622C12B9B12ED00D31163 /* MenuViewController.swift */; };
+		72C622C52B9B15AA00D31163 /* VerticalCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C622C42B9B15AA00D31163 /* VerticalCollectionViewCell.swift */; };
+		72C622C82B9B16BC00D31163 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C622C72B9B16BC00D31163 /* Model.swift */; };
+		72C622CB2B9B290000D31163 /* ValidateProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C622CA2B9B290000D31163 /* ValidateProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		72C622942B9AFB6300D31163 /* 4hw8.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 4hw8.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		72C622972B9AFB6300D31163 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		72C622992B9AFB6300D31163 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		72C6229B2B9AFB6300D31163 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		72C6229E2B9AFB6300D31163 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		72C6229B2B9AFB6300D31163 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		72C622A02B9AFB6A00D31163 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		72C622A32B9AFB6A00D31163 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		72C622A52B9AFB6A00D31163 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72C622AF2B9AFCB600D31163 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		72C622B12B9AFCD700D31163 /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		72C622B42B9AFD3700D31163 /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-SemiBold.ttf"; path = "../../../../resources/fonts/Poppins 2/Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		72C622B52B9AFD3700D31163 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-Regular.ttf"; path = "../../../../resources/fonts/Poppins 2/Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		72C622B82B9AFD4000D31163 /* Poppins-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-ExtraLight.ttf"; path = "../../../../resources/fonts/Poppins 2/Poppins-ExtraLight.ttf"; sourceTree = "<group>"; };
+		72C622BB2B9AFE2700D31163 /* MakerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakerView.swift; sourceTree = "<group>"; };
+		72C622BD2B9B03C800D31163 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		72C622BF2B9B03DF00D31163 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		72C622C12B9B12ED00D31163 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		72C622C42B9B15AA00D31163 /* VerticalCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalCollectionViewCell.swift; sourceTree = "<group>"; };
+		72C622C72B9B16BC00D31163 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		72C622CA2B9B290000D31163 /* ValidateProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidateProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +78,98 @@
 		72C622962B9AFB6300D31163 /* 4hw8 */ = {
 			isa = PBXGroup;
 			children = (
-				72C622972B9AFB6300D31163 /* AppDelegate.swift */,
-				72C622992B9AFB6300D31163 /* SceneDelegate.swift */,
-				72C6229B2B9AFB6300D31163 /* ViewController.swift */,
-				72C6229D2B9AFB6300D31163 /* Main.storyboard */,
-				72C622A02B9AFB6A00D31163 /* Assets.xcassets */,
+				72C622C92B9B28ED00D31163 /* Protocols */,
+				72C622AB2B9AFB8D00D31163 /* AppDelegate */,
+				72C622AC2B9AFB9B00D31163 /* Controllers */,
+				72C622C32B9B157B00D31163 /* CollectionViewCell */,
+				72C622C62B9B16AA00D31163 /* Model */,
+				72C622AD2B9AFC8300D31163 /* Resources */,
+				72C622BA2B9AFE0D00D31163 /* Helpers */,
 				72C622A22B9AFB6A00D31163 /* LaunchScreen.storyboard */,
 				72C622A52B9AFB6A00D31163 /* Info.plist */,
 			);
 			path = 4hw8;
+			sourceTree = "<group>";
+		};
+		72C622AB2B9AFB8D00D31163 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				72C622972B9AFB6300D31163 /* AppDelegate.swift */,
+				72C622992B9AFB6300D31163 /* SceneDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		72C622AC2B9AFB9B00D31163 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				72C6229B2B9AFB6300D31163 /* WelcomeViewController.swift */,
+				72C622BD2B9B03C800D31163 /* LogInViewController.swift */,
+				72C622BF2B9B03DF00D31163 /* SignUpViewController.swift */,
+				72C622C12B9B12ED00D31163 /* MenuViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		72C622AD2B9AFC8300D31163 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				72C622A02B9AFB6A00D31163 /* Assets.xcassets */,
+				72C622AE2B9AFC8A00D31163 /* Color */,
+				72C622B32B9AFCEA00D31163 /* Fonts */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		72C622AE2B9AFC8A00D31163 /* Color */ = {
+			isa = PBXGroup;
+			children = (
+				72C622AF2B9AFCB600D31163 /* Color.swift */,
+			);
+			path = Color;
+			sourceTree = "<group>";
+		};
+		72C622B32B9AFCEA00D31163 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				72C622B52B9AFD3700D31163 /* Poppins-Regular.ttf */,
+				72C622B82B9AFD4000D31163 /* Poppins-ExtraLight.ttf */,
+				72C622B42B9AFD3700D31163 /* Poppins-SemiBold.ttf */,
+				72C622B12B9AFCD700D31163 /* Fonts.swift */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		72C622BA2B9AFE0D00D31163 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				72C622BB2B9AFE2700D31163 /* MakerView.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		72C622C32B9B157B00D31163 /* CollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				72C622C42B9B15AA00D31163 /* VerticalCollectionViewCell.swift */,
+			);
+			path = CollectionViewCell;
+			sourceTree = "<group>";
+		};
+		72C622C62B9B16AA00D31163 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				72C622C72B9B16BC00D31163 /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		72C622C92B9B28ED00D31163 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				72C622CA2B9B290000D31163 /* ValidateProtocol.swift */,
+			);
+			path = Protocols;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +230,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72C622B92B9AFD4000D31163 /* Poppins-ExtraLight.ttf in Resources */,
+				72C622B62B9AFD3700D31163 /* Poppins-SemiBold.ttf in Resources */,
 				72C622A42B9AFB6A00D31163 /* LaunchScreen.storyboard in Resources */,
 				72C622A12B9AFB6A00D31163 /* Assets.xcassets in Resources */,
-				72C6229F2B9AFB6300D31163 /* Main.storyboard in Resources */,
+				72C622B72B9AFD3700D31163 /* Poppins-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +245,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				72C6229C2B9AFB6300D31163 /* ViewController.swift in Sources */,
+				72C6229C2B9AFB6300D31163 /* WelcomeViewController.swift in Sources */,
+				72C622BC2B9AFE2800D31163 /* MakerView.swift in Sources */,
+				72C622C02B9B03DF00D31163 /* SignUpViewController.swift in Sources */,
+				72C622B02B9AFCB600D31163 /* Color.swift in Sources */,
+				72C622C52B9B15AA00D31163 /* VerticalCollectionViewCell.swift in Sources */,
+				72C622CB2B9B290000D31163 /* ValidateProtocol.swift in Sources */,
+				72C622C22B9B12ED00D31163 /* MenuViewController.swift in Sources */,
+				72C622BE2B9B03C800D31163 /* LogInViewController.swift in Sources */,
+				72C622B22B9AFCD700D31163 /* Fonts.swift in Sources */,
+				72C622C82B9B16BC00D31163 /* Model.swift in Sources */,
 				72C622982B9AFB6300D31163 /* AppDelegate.swift in Sources */,
 				72C6229A2B9AFB6300D31163 /* SceneDelegate.swift in Sources */,
 			);
@@ -147,14 +263,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		72C6229D2B9AFB6300D31163 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				72C6229E2B9AFB6300D31163 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		72C622A22B9AFB6A00D31163 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -297,7 +405,6 @@
 				INFOPLIST_FILE = 4hw8/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -325,7 +432,6 @@
 				INFOPLIST_FILE = 4hw8/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (

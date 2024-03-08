@@ -5,4 +5,10 @@
 //  Created by Telegey Nurbekova on 08/03/24.
 //
 
-import Foundation
+import UIKit
+
+struct Item {
+    var logo: UIImage?
+    var name: String
+    var person: String
+}
