@@ -1,0 +1,15 @@
+{
+  "images" : [
+    {
+      "filename" : "ALPHA Bookstore_LOGO_DARK-VER.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "properties" : {
+    "preserves-vector-representation" : true
+  }
+}
